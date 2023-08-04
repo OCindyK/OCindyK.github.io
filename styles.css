@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.left-column {
+    flex: 1;
+    padding: 20px;
+    background: linear-gradient(to left, #c9daf9, #729be9);
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+    background: linear-gradient(to left, #a7c1f2, #e5eeff);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.avatar img {
+    max-width: 150px;
+    border-radius: 50%;
+}
